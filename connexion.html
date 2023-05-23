@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Page de connexion</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <section>
+        <div class="breadcrumb">
+      
+      <ul class="breadcrumb">
+        <li><a href="accueil.html">Accueil </a></li>
+        <li><a href="contact.html">Connexion </a></li>
+        
+      </ul>
+        </div>
+      </section>
+
+    <div class="container connexion">
+      <h1>Connectez-vous à votre compte</h1>
+      <form id="login-form" method="post">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" name="username" id="username" required><br>
+        <label for="password">Mot de passe :</label>
+        <input type="password" name="password" id="password" required><br>
+        <input type="submit" value="Se connecter">
+      </form>
+      <div id="error-message"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

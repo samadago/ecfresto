@@ -71,7 +71,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('images/table.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/table.jpg');
   background-size: cover;
   color: #ffff;
 
@@ -284,7 +284,7 @@ ul.breadcrumb li a:hover {
 
   width: 100%;
   padding: 12px;
-  border: 1px solid #751009;
+  border: 6px solid #6773E0;
   border-radius: 4px;
   resize: vertical;
 }
@@ -301,7 +301,7 @@ ul.breadcrumb li a:hover {
   height: 350px;
   background-image: url(images/contact.jpg);
   background-size: cover;
-  border: 1px solid blue;
+  border: 1px solid #6773E0;
 
   text-align: center;
   color: #6773E0;
@@ -494,3 +494,118 @@ min-height: 6%;
 
 /* reserver table*/
 
+.reservation {
+  background-color:;
+  padding: 20px;
+  background-image: url(images/waffles-g8057e887e_1280.jpg);
+  box-shadow: 0 0 10px rgba(37, 19, 2, 0.2);
+  text-align: center;
+
+  
+}
+
+.reservation h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #5c0606;
+  
+}
+
+.reservation form {
+  display:inline-block;
+  text-align: left;
+ width: 400px; 
+  padding: 5px;
+  border: 5px solid ;
+  margin:auto;
+  margin-top: 5%;
+  border:10px  solid #fff;
+}
+
+.reservation label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.reservation input,
+.reservation button {
+  font-size: 1rem;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  
+}
+
+.reservation input:focus {
+  outline: none;
+  border-color: #0077cc;
+}
+
+.reservation button {
+  background-color: #0077cc;
+  color: #fff;
+  border-color: #0077cc;
+  transition: 0.3s ease;
+}
+
+.reservation button:hover {
+  background-color: #005ea6;
+  cursor: pointer;
+  
+}
+
+/* connexion*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+.container {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: beige;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-top: 10%;
+}
+h1 {
+  text-align: center;
+  color:#751009;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #751009;
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: medium;
+  font-weight: 600;
+}
+input[type="submit"] {
+  background-color:#751009;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 500;
+}
+input[type="submit"]:hover {
+  background-color:#6773E0;
+}
+#error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}

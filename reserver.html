@@ -18,22 +18,44 @@
 
 
 <body>
-
-
-  <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
-    <div class="w3-content">
-      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px"</h1>
-      
-      <p class="w3-xxlarge"><strong>Reserver</strong> un table, Faire une Demande speciale ou Envoyez nous le message:</p>
-      <form action="/action_page.php" target="_blank">
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nom et Prénom" required name="Nom et Prénom"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Combien des Personnes" required name="Nombres des Personnes"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2023-04-04/18H15"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special " required name="Message"></p>
-        <p><button class="w3-button w3-light-grey w3-block" type="submit">Envoyer le message</button></p>
-      </form>
+  <section>
+    <div class="breadcrumb">
+  
+  <ul class="breadcrumb">
+    <li><a href="accueil.html">Accueil </a></li>
+    <li><a href="contact.html">Réserver une table </a></li>
+    
+  </ul>
     </div>
+  </section>
+  
+  <div class="reservation">
+    <h2>Réserver une table</h2>
+    <form>
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="phone">Téléphone :</label>
+      <input type="tel" id="phone" name="phone" required>
+      <br>
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date" required>
+      <br>
+      <label for="time">Heure :</label>
+      <input type="time" id="time" name="time" required>
+      <br>
+      <label for="guests">Nombre de personnes :</label>
+      <input type="number" id="guests" name="guests" min="1" max="10" required>
+      <br>
+      <label for="guests">Declare allergie :</label>
+      <input type="number" id="allergie" name="allergie" min="1" max="10" required>
+      <br>
+      <button type="submit">Réserver</button>
+    </form>
   </div>
-</body>
+   </body>
 </html>
 
